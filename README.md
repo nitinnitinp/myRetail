@@ -20,13 +20,13 @@ If you have GIT installed on your system, you can clone the project from git rep
 
 Use below command to clone the project  
 ```
-git clone https://github.com/nitinnitinp/edsolstice.git
+git clone https://github.com/nitinnitinp/myRetail.git
 ```
    OR
 
 Download from below link and then extract it 
 ```
-https://github.com/nitinnitinp/edsolstice/archive/master.zip 
+https://github.com/nitinnitinp/myRetail/archive/master.zip 
 ```
 Now go to project directory /myRetail
 ```
