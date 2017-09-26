@@ -30,13 +30,17 @@ https://github.com/nitinnitinp/myRetail/archive/master.zip
 ```
 Now go to project directory /myRetail
 ```
-cd <project location>/myRetail
+cd <project location>/myRetail 
+
+OR 
+
+cd <extracted dir>
 ```
 Build project using below command. It also runs the test cases as a part of build to check everything is good.
 ```
 mvn clean install
 ```
-To host the rest service, run below command 
+To host the rest service, run below command . Currently default port is 8081, if you want to change it, update property server.port=<port> application.properties : http://<host:port>/myRetail/products/<id>
 ```
 mvn spring-boot:run
 ```
