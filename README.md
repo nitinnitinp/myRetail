@@ -40,8 +40,8 @@ Build project using below command. It also runs the test cases as a part of buil
 ```
 mvn clean install
 ```
-To host the rest service, run below command . Currently default port is 8081, if you want to change it, update property server.port='<port>' in application.properties. 
-Url format : http://<host:port>/myRetail/products/<id>
+To host the rest service, run below command . Currently default port is 8081, if you want to change it, update property server.port=`<port>` in application.properties. 
+Url format : `http://<host:port>/myRetail/products/<id>`
 ```
 mvn spring-boot:run
 ```
